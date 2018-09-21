@@ -28,6 +28,7 @@ int process(string input) {
 int main() {
 	int i = 1;
 	string s;
+	freopen("input.txt", "r", stdin);
 	while (true) {
 		cin >> s;	
 		if(s.at(0) == '-') break;
